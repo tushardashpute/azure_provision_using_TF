@@ -19,7 +19,7 @@ provider "azurerm" {
 # Your code goes here
 
 module "resourcegroup" {
-  source         = "./modules/resourcegroup"
+  source         = "./modules/resources"
   name           = var.name
   location       = var.location
 }

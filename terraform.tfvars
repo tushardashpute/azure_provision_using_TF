@@ -1,0 +1,6 @@
+name = "azure-stack"
+location = "East US"
+vnetcidr = "192.168.0.0/16"
+websubnetcidr = "192.168.1.0/24"
+appsubnetcidr = "192.168.2.0/24"
+dbsubnetcidr = "192.168.3.0/24"
